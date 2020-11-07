@@ -1,0 +1,126 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{ padding: 10px 0;
+
+}
+.container {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	width: 17%;
+	float: left;
+
+
+}
+.logo img{
+	width: 100%;
+	 
+}
+.menu {
+	margin-top: 12px;
+	float: right;
+	width: 75%;
+	
+}
+.menu ul{float: right;}
+.menu ul li{ list-style: none;
+
+float: left; }
+.menu ul li a{font-family:sans-serif;
+	font-size: 16px;
+	font-weight:normal;
+	color:#535D69 ;
+    text-decoration: none;
+    padding: 0 20px;
+    display: inline-block;
+    transition: .3s;}
+.menu ul li a:hover{
+	color: #ED1C24;
+}
+.menu ul li:last-child a{
+	padding-right: 0; 
+}
+/*header end*/
+/*section start*/
+.banner {background-image: url(images/bussines.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center; }
+
+.b_containt { margin:100px 0; 
+	          max-width:44%;
+}
+.b_containt h1{margin: 0 0 20;
+	font-family:sans-serif;
+	font-size: 57px;
+	color:white ;
+	letter-spacing: 2px;
+	line-height: 65px;
+	word-spacing: 1px;
+    text-transform: capitalize;}
+.b_containt p{ margin: 5 0 20;
+	           font-family:sans-serif;
+	font-size: 17px;
+	color:white ;
+}
+.b_containt button{margin-top: 20px;
+	width: 265px;
+	height: 50px;
+	font-family:sans-serif;
+	font-size: 15px;
+	color:white ;
+    text-transform: uppercase;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s;
+}
+.b_containt button:hover{color:red ;
+background-color: white;
+
+}
+/*section end*/
+/*works start*/
+.works{padding: 100px 0;}
+.top{margin: 0 auto;
+	width: 70%;
+text-align: center;}
+.top h1{margin: 0 0 20;
+	font-family:sans-serif;
+	font-size: 30px;
+	color:black ;
+    text-transform: uppercase;}
+.top p{font-family:sans-serif;
+	font-size: 16px;
+	color:black ;
+    line-height:25px; }
+.bottom{
+
+}
+.single_item{margin-right: 21px;
+	text-align: center;
+             width: 30%;
+             float: left;}
+.single_item:last-child{
+	margin-right: 21px;
+}            
+.single_item img{
+	width: 40%;
+}
+.single_item p{
+	font-family:sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	color:gray ;
+}
+
+/*works end*/
+
+
